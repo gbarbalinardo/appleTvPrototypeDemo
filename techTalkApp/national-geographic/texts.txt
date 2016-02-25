@@ -1,0 +1,12 @@
+Beverly Joubert is an award-winning filmmaker from Botswana who has been an Explorer-in-Residence for over four years. Her mission is the conservation and understanding of the large predators and key African wildlife species that determine the course of all conservation in Africa.
+
+Lynn Johnson is a photojournalist and educator known for her intense stories and sensitive work.
+She has been capturing the subtleties of the human condition for 35 years.
+
+
+references
+
+where to go from here
+
+FONT:
+https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/TypoFeatures/TextSystemFeatures.html#//apple_ref/doc/uid/TP40009542-CH6-BBCFAEGE

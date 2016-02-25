@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="TimesNewRomanMTStd-Cond.otf">
+            <string>TimesNewRomanMTStd-Cond</string>
+            <string>TimesNewRomanMTStd-Cond</string>
+            <string>TimesNewRomanMTStd-Cond</string>
+            <string>TimesNewRomanMTStd-Cond</string>
+            <string>TimesNewRomanMTStd-Cond</string>
+            <string>TimesNewRomanMTStd-Cond</string>
+            <string>TimesNewRomanMTStd-Cond</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PHOTOGRAPHY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiS-qb-nN4">
+                                <rect key="frame" x="71" y="139" width="499" height="60"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanMTStd-Cond" family="Times New Roman MT Std" pointSize="60"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PHOTOGRAPHERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDv-xc-cEh">
+                                <rect key="frame" x="1073" y="144" width="483" height="64"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanMTStd-Cond" family="Times New Roman MT Std" pointSize="60"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="K7T-Yq-jQ7">
+                                <rect key="frame" x="820" y="-8" width="280" height="171"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWf-dv-6hu">
+                                <rect key="frame" x="1073" y="248" width="300" height="300"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="beverly-joubert-crop.jpg"/>
+                                <connections>
+                                    <segue destination="ImW-DV-pWh" kind="presentation" modalPresentationStyle="overCurrentContext" id="vhu-LP-I2T"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hrb-1B-E4r">
+                                <rect key="frame" x="71" y="328" width="792" height="449"/>
+                                <connections>
+                                    <segue destination="OCY-bW-rRN" kind="embed" id="7Tr-9G-UEq"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHJ-U8-s5d">
+                                <rect key="frame" x="1411" y="248" width="300" height="300"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="lynn-johnson-crop.jpg"/>
+                                <connections>
+                                    <segue destination="E1n-H5-OfG" kind="presentation" id="BnX-ls-53H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="548" y="486"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="IYZ-js-jvx">
+            <objects>
+                <tableViewController id="OCY-bW-rRN" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="40" sectionFooterHeight="40" id="oN6-ug-cca">
+                        <rect key="frame" x="0.0" y="0.0" width="792" height="449"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <sections>
+                            <tableViewSection id="d5q-Gu-Jkm">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0yC-nv-lyO">
+                                        <rect key="frame" x="0.0" y="0.0" width="792" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0yC-nv-lyO" id="Tem-uw-vja">
+                                            <rect key="frame" x="0.0" y="0.0" width="776" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beverly Joubert: Cheeky Elephant Call" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4s-r0-dFl">
+                                                    <rect key="frame" x="175" y="11" width="426" height="44"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanMTStd-Cond" family="Times New Roman MT Std" pointSize="30"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LxZ-GX-N8G" kind="presentation" modalTransitionStyle="crossDissolve" id="QRL-vv-7mc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="oLo-GS-JA0">
+                                        <rect key="frame" x="0.0" y="80" width="792" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oLo-GS-JA0" id="kSF-Vp-E2O">
+                                            <rect key="frame" x="0.0" y="0.0" width="776" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beverly Joubert: Picture of a Lion Cub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jle-Yr-oXn">
+                                                    <rect key="frame" x="185" y="11" width="406" height="43"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanMTStd-Cond" family="Times New Roman MT Std" pointSize="30"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fT0-tp-zYe" kind="presentation" id="oTd-8e-gTi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hq2-Z0-OPA">
+                                        <rect key="frame" x="0.0" y="160" width="792" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hq2-Z0-OPA" id="NpC-FK-rUW">
+                                            <rect key="frame" x="0.0" y="0.0" width="776" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lynn Johnson: Grandmother and Baby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXs-Ev-0nQ">
+                                                    <rect key="frame" x="186" y="15" width="404" height="36"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanMTStd-Cond" family="Times New Roman MT Std" pointSize="30"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eDI-39-mol" kind="presentation" modalTransitionStyle="coverVertical" id="l7r-5B-78S"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="OCY-bW-rRN" id="bzn-6T-3t0"/>
+                            <outlet property="delegate" destination="OCY-bW-rRN" id="lNW-za-zcz"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MlG-hi-sU1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189" y="1403.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TRa-bz-opv">
+            <objects>
+                <viewController id="eDI-39-mol" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xZe-xm-O6o"/>
+                        <viewControllerLayoutGuide type="bottom" id="P5t-4V-RTp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7df-Qy-skE">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="johnson-grandmother-and-baby.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h7q-8E-QTd">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q3C-Mf-8Nf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="2307"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YfV-NR-ahs">
+            <objects>
+                <viewController id="LxZ-GX-N8G" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3ZF-Q7-mzF"/>
+                        <viewControllerLayoutGuide type="bottom" id="WWg-yB-lqf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LfC-iO-szA">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beverly-cheeky-elephant-calf.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YDw-1c-ppC">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbs-Sc-CBO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2126" y="2307"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="at4-h5-5wK">
+            <objects>
+                <viewController id="fT0-tp-zYe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Smd-M5-g1Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="qBR-WC-lHP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ujE-oJ-4H4">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="beverly-picture-of-a-lion-cub.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PwU-ql-M8L">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4OC-6y-CFG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4166" y="2299"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Uqf-i2-diA">
+            <objects>
+                <viewController id="ImW-DV-pWh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wMf-PE-hV1"/>
+                        <viewControllerLayoutGuide type="bottom" id="DAh-z0-Oeh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nIH-Rf-ehf">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAB-a0-wwE">
+                                <rect key="frame" x="1100" y="600" width="640" height="300"/>
+                                <string key="text">Beverly Joubert is an award-winning filmmaker from Botswana who has been an Explorer-in-Residence for over four years. Her mission is the conservation and understanding of the large predators and key African wildlife species that determine the course of all conservation in Africa.</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanMTStd-Cond" family="Times New Roman MT Std" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U3j-is-hCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="486"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jvb-6B-yBe">
+            <objects>
+                <viewController id="E1n-H5-OfG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wG4-HE-U2b"/>
+                        <viewControllerLayoutGuide type="bottom" id="rex-wd-LJi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="57r-Cn-Bwa">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZc-Rj-1sW">
+                                <rect key="frame" x="1100" y="600" width="640" height="300"/>
+                                <string key="text">Lynn Johnson is a photojournalist and educator known for her intense stories and sensitive work.
+She has been capturing the subtleties of the human condition for 35 years.</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanMTStd-Cond" family="Times New Roman MT Std" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZM-Bk-Kjv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="-683"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beverly-cheeky-elephant-calf.jpg" width="1920" height="1080"/>
+        <image name="beverly-joubert-crop.jpg" width="500" height="500"/>
+        <image name="beverly-picture-of-a-lion-cub.jpg" width="1920" height="1080"/>
+        <image name="johnson-grandmother-and-baby.jpg" width="1920" height="1080"/>
+        <image name="logo.png" width="500" height="148"/>
+        <image name="lynn-johnson-crop.jpg" width="500" height="500"/>
+    </resources>
+</document>
