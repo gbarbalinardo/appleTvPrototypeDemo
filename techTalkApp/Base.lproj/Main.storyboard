@@ -61,7 +61,7 @@
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" backgroundImage="lynn-johnson-crop.jpg"/>
                                 <connections>
-                                    <segue destination="E1n-H5-OfG" kind="presentation" id="BnX-ls-53H"/>
+                                    <segue destination="E1n-H5-OfG" kind="presentation" modalPresentationStyle="overCurrentContext" id="BnX-ls-53H"/>
                                 </connections>
                             </button>
                         </subviews>
