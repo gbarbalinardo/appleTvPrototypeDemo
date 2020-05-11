@@ -2,7 +2,7 @@ Introduction
 ======
 
 This project is an Apple TV prototype realized with Interface Builder, without any line of code.
-It is part of a prototyping tutorial that you can find here  [Grio Blog](http://wp.me/p6EtGZ-19F)
+It is part of a prototyping tutorial that you can find here  [Grio Blog](https://blog.grio.com/2016/03/prototyping-with-interface-builder.html)
 
 Technical Details
 =====
